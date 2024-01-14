@@ -1,0 +1,8 @@
+body {
+  background-color: aqua;
+}
+div {
+  container: 100px;
+  border: solid 2px blue;
+  height: 100px;
+}
