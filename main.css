@@ -1,10 +1,37 @@
-body {
-  background-color: aqua;
-}
+
 .avatar {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
+  vertical-align: right;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  margin-left: 25px;
 }
 
+button {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-self: stretch;
+  width: 100%;
+}
+
+body{
+  background-image: linear-gradient(to right, black, rgb(80, 78, 78));
+}
+
+section{
+  padding: 22px;
+}
+
+.btn-secondary {
+  /* background-color: black !important; */
+  background: linear-gradient(to right, black, grey) !important;
+}
+
+h3 {
+  color: white;
+}
+
+h6 {
+  color: white;
+}
