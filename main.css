@@ -28,10 +28,31 @@ section{
   background: linear-gradient(to right, black, grey) !important;
 }
 
+.btn-secondary:hover {
+  color: rgb(150, 76, 88);
+}
+
 h3 {
   color: white;
 }
 
 h6 {
   color: white;
+}
+
+.icon {
+  color: darkgray;
+  transition: color 0.2s;
+  margin: 0 5px;
+  font-size: xx-large;
+}
+
+.icon:hover {
+  color: rgb(150, 76, 88);
+}
+.devInTraining {
+  color: rgb(150, 76, 88);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
